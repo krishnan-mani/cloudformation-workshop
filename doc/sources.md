@@ -1,0 +1,1 @@
+The checked-in versions of the User Guide and the API Reference (.pdf files) for AWS CloudFormation were downloaded from the [documentation](https://aws.amazon.com/documentation/cloudformation/) in the week of 27th November 2017
