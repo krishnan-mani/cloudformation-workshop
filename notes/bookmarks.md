@@ -157,3 +157,10 @@ An endpoint is a URL that is the entry point for a web service.
 
 When you work with stacks by using the command line interface or API actions, you can specify a regional endpoint.
 ```
+
+- [AWS CloudFormation and VPC Endpoints](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-vpce-bucketnames.html)
+
+```html
+
+AWS CloudFormation has S3 buckets in each region to monitor responses to a custom resource request or a wait condition
+```
