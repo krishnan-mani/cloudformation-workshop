@@ -132,3 +132,10 @@ To associate a service role with a stack, specify the role when you create the s
 
 When you specify a service role, AWS CloudFormation always uses that role for all operations that are performed on that stack. Other users that have permissions to perform operations on this stack will be able to use this role, even if they don't have permission to pass it
 ```
+
+- [Logging AWS CloudFormation API calls in AWS CloudTrail](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-api-logging-cloudtrail.html)
+
+```html
+
+AWS CloudFormation is integrated with AWS CloudTrail, a service that captures API calls made by or on behalf of your AWS account
+```
