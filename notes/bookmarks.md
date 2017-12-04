@@ -139,3 +139,12 @@ When you specify a service role, AWS CloudFormation always uses that role for al
 
 AWS CloudFormation is integrated with AWS CloudTrail, a service that captures API calls made by or on behalf of your AWS account
 ```
+
+- [AWS CloudFormation Limits](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cloudformation-limits.html)
+
+```html
+
+AWS CloudFormation Limits  
+
+Your AWS account has AWS CloudFormation limits that you might need to know when authoring templates and creating stacks. By understanding these limits, you can avoid limitation errors that would require you to redesign your templates or stacks.
+```
