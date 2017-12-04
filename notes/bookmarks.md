@@ -148,3 +148,12 @@ AWS CloudFormation Limits
 
 Your AWS account has AWS CloudFormation limits that you might need to know when authoring templates and creating stacks. By understanding these limits, you can avoid limitation errors that would require you to redesign your templates or stacks.
 ```
+
+- [AWS CloudFormation Endpoints](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-endpoints.html)
+
+```html
+
+An endpoint is a URL that is the entry point for a web service.  
+
+When you work with stacks by using the command line interface or API actions, you can specify a regional endpoint.
+```
