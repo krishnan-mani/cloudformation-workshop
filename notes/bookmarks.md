@@ -53,3 +53,11 @@ Deleting a Stack
 
 When you delete a stack, you specify the stack to delete, and AWS CloudFormation deletes the stack and all the resources in that stack. You can delete stacks by using the AWS CloudFormation console, API, or AWS CLI.  If you want to delete a stack but want to retain some resources in that stack, you can use a deletion policy to retain those resources.
 ```
+
+- [Signing up for an AWS Account and Pricing](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-sign-up-for-aws.html)
+
+```html
+Pricing  
+
+AWS CloudFormation is a free service; however, you are charged for the AWS resources you include in your stacks at the current rates for each
+```
