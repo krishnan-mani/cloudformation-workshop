@@ -111,3 +111,24 @@ If your template contains custom named IAM resources, don't create multiple stac
 
 AWS CloudFormation interacts with many other AWS services. When you use temporary security credentials with AWS CloudFormation, verify that all the services that you want to use support temporary security credentials. For more information, see AWS Services that Support AWS STS.
 ```
+
+- [AWS CloudFormation Service Role](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-servicerole.html)
+
+```html
+
+AWS CloudFormation Service Role  
+
+A service role is an AWS Identity and Access Management (IAM) role that allows AWS CloudFormation to make calls to resources in a stack on your behalf. You can specify an IAM role that allows AWS CloudFormation to create, update, or delete your stack resources. By default, AWS CloudFormation uses a temporary session that it generates from your user credentials for stack operations. If you specify a service role, AWS CloudFormation uses the role's credentials.
+```
+
+```html
+
+To associate a service role with a stack, specify the role when you create the stack. For details, see Setting Stack Options. You can also change the service role when you update or delete the stack. Before you specify a service role, ensure that you have permission to pass it (iam:PassRole)
+```
+
+```html
+
+<bold>Important</bold> 
+
+When you specify a service role, AWS CloudFormation always uses that role for all operations that are performed on that stack. Other users that have permissions to perform operations on this stack will be able to use this role, even if they don't have permission to pass it
+```
