@@ -1,4 +1,3 @@
 {
-  "ParameterKey": "FooValue",
-  "ParameterValue": "bar"
+  "FooValue": "bar"
 }
