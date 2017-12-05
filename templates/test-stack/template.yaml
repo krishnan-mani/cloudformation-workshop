@@ -1,0 +1,9 @@
+Parameters:
+  FooValue:
+    Type: String
+
+Resources:
+  bucket:
+    Metadata:
+      foo: !Ref FooValue
+    Type: AWS::S3::Bucket
