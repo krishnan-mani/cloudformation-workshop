@@ -1,3 +1,5 @@
 {
-  "FooValue": "bar"
+  "Parameters": {
+    "FooValue": "bar"
+  }
 }
